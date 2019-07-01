@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include etf_portfolio_manager *.css
+recursive-include etf_portfolio_manager *.csv
+recursive-include etf_portfolio_manager *.html
+recursive-include etf_portfolio_manager *.ico
+recursive-include etf_portfolio_manager *.js
+recursive-include etf_portfolio_manager *.json
+recursive-include etf_portfolio_manager *.md
+recursive-include etf_portfolio_manager *.png
+recursive-include etf_portfolio_manager *.py
+recursive-include etf_portfolio_manager *.svg
+recursive-include etf_portfolio_manager *.txt
+recursive-exclude etf_portfolio_manager *.pyc
